@@ -1,14 +1,26 @@
-# Unit 18 Nosql Homework: Workout Tracker
+# Workout Tracker using NoSQL
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
 
-## User Story
+## Description
+- This is a workout or fitness tracker meant to track the users daily workouts. They are able to view, create and track their daily fitness routine. This application allows the user to log multiple exercises in a workout on a given day. It also allows tracking of the name, type, weight, sets, reps, and duration of exercise. If the cardio option is chosen, the user can track the distance traveled. 
+- A Mongo database was created with a Mongoose schema and handle routes with Express for application functionality.
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
-## Business Context
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Tests](#tests)
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+
+## Deployed Application
+## Usage
+
+- View create and track daily workouts.
+- Log multiple exercises in a workout on a given day. 
+- Track the name, type, weight, sets, reps, and duration of exercise. 
+- If the exercise is a cardio exercise, it will track the distance traveled.
+
+## Animations and Screenshots
 
 ## Acceptance Criteria
 
