@@ -5,6 +5,7 @@ const router = require("express").Router();
 const db = require("../models/exercise");
 
 // GET Request for getting all workouts
+// Add total duration to both get routes
 router.get("/api/workouts", (req, res) => {
 	db.find()
 		.then((dbData) => {
