@@ -16,11 +16,15 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 // Opening a connection to the MongoDB using mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { 
-useNewUrlParser: true,
-useUnifiedTopology: true,
-useCreateIndex: true,
-useFindAndModify: false});
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/obscure-headland-97370',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
 
 // Routes
 app.use(routes);
